@@ -194,7 +194,7 @@ function spawnbananas() {
     banana.velocityX = -(6 + score/100);
     
      //assign lifetime to the variable
-    banana.lifetime = 200;
+    banana.lifetime = 400;
     
     
     //add each banana to the group
@@ -213,7 +213,7 @@ function spawnClouds() {
     cloud.velocityX = -3;
     
      //assign lifetime to the variable
-    cloud.lifetime = 200;
+    cloud.lifetime = 400;
     
     //adjust the depth
     cloud.depth = monkey.depth;
