@@ -155,7 +155,7 @@ function reset(){
   FoodGroup.destroyEach();
  monkey.changeAnimation("running",monkey_running);
   score = 0;
-  Food = 0;
+  food = 0;
 }
 
 function spawnObstacles(){
